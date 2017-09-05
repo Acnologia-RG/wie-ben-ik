@@ -1,8 +1,8 @@
 body {
-	background-color: rgb(90,0,255);
+	background-color: rgb(102, 0, 204);
 	font-family: Arial;
 	font-size: 22.5px;
-	text-decoration-color: yellow;
+	color: yellow;
 }
 
 h1 {
@@ -14,15 +14,15 @@ h3 {
 }
 
 a:link {
-	color: blue;
+	color: rgb(51, 51, 255);
 }
 
 a:visited {
-	color: yellow;
+	color: rgb(255, 255, 0);
 }
 
 a:hover {
-	color: orange;
+	color: rgb(255, 102, 0);
 }
 
 .box {
@@ -63,4 +63,3 @@ a:hover {
 	grid-column:5;
 	grid-row:5;
 }
-
