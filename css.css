@@ -2,7 +2,7 @@ body {
 	background-color: rgb(102, 0, 204);
 	font-family: Arial;
 	font-size: 22.5px;
-	color: yellow;
+	color: rgb(255, 255, 0);
 }
 
 h1 {
@@ -15,6 +15,7 @@ h3 {
 
 a:link {
 	color: rgb(51, 51, 255);
+	text-decoration: none;
 }
 
 a:visited {
@@ -23,13 +24,6 @@ a:visited {
 
 a:hover {
 	color: rgb(255, 102, 0);
-}
-
-.box {
-	background-color: black;
-	border-radius: 15px;
-	padding: 0px;
-	border: 2px solid green;
 }
 
 .grid {
@@ -62,4 +56,32 @@ a:hover {
 .work {
 	grid-column:5;
 	grid-row:5;
+}
+
+a {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+a:hover {
+	background-color: #3e8e41
+}
+
+a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#background_1 {
+	background-image:url("wolf.png");
+	background-size: cover;
 }
