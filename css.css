@@ -58,7 +58,7 @@ a:hover {
 	grid-row:5;
 }
 
-a {
+button {
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -71,17 +71,17 @@ a {
   box-shadow: 0 9px #999;
 }
 
-a:hover {
-	background-color: #3e8e41
+button:hover {
+	background-color: #3e8e41;
 }
 
-a:active {
+button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-#background_1 {
+.shit {
 	background-image:url("wolf.png");
 	background-size: cover;
 }
